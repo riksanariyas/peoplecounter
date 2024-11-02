@@ -1,0 +1,58 @@
+/* Basic styling for the page */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    background: url('download.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-color: #9e095990;
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+/* Heading styles */
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+h2 {
+    font-size: 3em;
+    margin: 0.5em 0;
+    color: #333;
+}
+
+/* Button styling */
+button#increment-btn {
+    padding: 15px 25px;
+    font-size: 1.2em;
+    color: black;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Button hover effect */
+button#increment-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Button active effect */
+button#increment-btn:active {
+    transform: scale(1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
